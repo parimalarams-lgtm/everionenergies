@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Everion Energies Private Limited - Renewable energy company based in Villupuram, Tamil Nadu. Clean Energy. Sustainable Future. Better Tomorrow.">
+  <title>Everion Energies Private Limited | Clean Energy. Sustainable Future.</title>
+  <style>
+    :root{
+      --green:#087a43;
+      --green-dark:#045a31;
+      --green-light:#eaf7ef;
+      --gold:#f5a900;
+      --text:#173126;
+      --muted:#607068;
+      --white:#fff;
+      --line:#dce9e1;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.7;background:#fff}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--green-dark)}
+    .brand img{width:52px;height:52px;object-fit:contain}
+    .brand span{font-size:18px;line-height:1.15}
+    nav{display:flex;gap:25px;font-weight:600;color:#355047}
+    nav a:hover{color:var(--green)}
+    .hero{background:linear-gradient(135deg,#f4fbf6 0%,#fff 55%,#fff8e9 100%);padding:82px 0 76px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:60px}
+    .eyebrow{display:inline-block;color:var(--green);font-weight:800;letter-spacing:1.5px;text-transform:uppercase;font-size:13px;margin-bottom:15px}
+    h1{font-size:clamp(42px,6vw,70px);line-height:1.03;margin-bottom:20px;color:#10452d}
+    .tagline{font-size:21px;font-weight:700;color:var(--green);margin-bottom:18px}
+    .hero p{font-size:18px;color:var(--muted);max-width:700px}
+    .buttons{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+    .btn{padding:13px 21px;border-radius:30px;font-weight:700;display:inline-block}
+    .btn-primary{background:var(--green);color:#fff}
+    .btn-primary:hover{background:var(--green-dark)}
+    .btn-outline{border:1.5px solid var(--green);color:var(--green)}
+    .hero-logo{display:flex;justify-content:center}
+    .hero-logo img{width:min(370px,85%);filter:drop-shadow(0 16px 22px rgba(0,80,40,.12))}
+    section{padding:76px 0}
+    .section-head{max-width:760px;margin-bottom:35px}
+    .section-head h2{font-size:38px;line-height:1.15;color:#10452d;margin-bottom:14px}
+    .section-head p{color:var(--muted)}
+    .about{background:#fff}
+    .about-copy{font-size:17px;color:#53645c;max-width:960px}
+    .about-copy p{margin-bottom:18px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:35px}
+    .card{padding:30px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 8px 28px rgba(17,67,43,.06)}
+    .icon{font-size:31px;margin-bottom:13px}
+    .card h3{font-size:23px;color:var(--green-dark);margin-bottom:10px}
+    .card p{color:var(--muted)}
+    .promise{background:var(--green-light)}
+    .promise-box{background:#fff;border-radius:24px;padding:45px;box-shadow:0 12px 35px rgba(0,80,40,.08);text-align:center}
+    .promise-box p{font-size:21px;color:#385349;max-width:850px;margin:0 auto 18px}
+    .quote{font-size:25px!important;font-weight:800;color:var(--green)!important}
+    .contact{background:#103d2b;color:#fff}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:45px}
+    .contact h2{font-size:40px;margin-bottom:14px}
+    .contact p{color:#d8e9df}
+    .contact-item{margin:18px 0}
+    .contact-item strong{display:block;color:#fff;margin-bottom:4px}
+    .contact a{color:#bff0d0}
+    .contact-card{background:rgba(255,255,255,.08);padding:32px;border:1px solid rgba(255,255,255,.16);border-radius:20px}
+    footer{background:#08261c;color:#b9cec3;text-align:center;padding:22px}
+    footer strong{color:#fff}
+    @media(max-width:800px){
+      nav{display:none}
+      .hero-grid,.contact-grid{grid-template-columns:1fr}
+      .hero{text-align:center}
+      .hero p{margin:auto}
+      .buttons{justify-content:center}
+      .cards{grid-template-columns:1fr}
+      .hero-logo{order:-1}
+      .hero-logo img{width:230px}
+      section{padding:58px 0}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home">
+      <img src="assets/everion-logo.jpeg" alt="Everion Energies logo">
+      <span>Everion Energies<br>Private Limited</span>
+    </a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#vision">Vision & Mission</a>
+      <a href="#promise">Our Promise</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Renewable Energy • Tamil Nadu</span>
+      <h1>Everion Energies</h1>
+      <div class="tagline">Clean Energy. Sustainable Future. Better Tomorrow.</div>
+      <p>Developing and promoting clean energy solutions that harness the power of nature while creating long-term value for businesses, communities and society.</p>
+      <div class="buttons">
+        <a class="btn btn-primary" href="#about">Discover Everion</a>
+        <a class="btn btn-outline" href="#contact">Contact Us</a>
+      </div>
+    </div>
+    <div class="hero-logo">
+      <img src="assets/everion-logo.jpeg" alt="Everion Energies company logo">
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">About Everion Energies</span>
+      <h2>Building a cleaner, greener and more sustainable future</h2>
+    </div>
+    <div class="about-copy">
+      <p>Everion Energies Private Limited is a renewable energy company based in Villupuram, Tamil Nadu, committed to contributing to a cleaner, greener and more sustainable future.</p>
+      <p>We believe that the transition to renewable energy is not only an opportunity to meet the growing demand for power, but also a responsibility towards future generations and our planet. Our focus is to develop and promote clean energy solutions that harness the power of nature while creating long-term value for businesses, communities and society.</p>
+      <p>With a strong focus on solar and renewable energy, Everion Energies aims to participate in India's transition towards sustainable power generation. We aspire to develop reliable renewable energy projects that contribute to reducing dependence on conventional energy sources and help build a cleaner energy ecosystem.</p>
+      <p>Our approach is built around responsible development, reliability, sustainability and long-term value creation. We work towards establishing renewable energy assets that are technically sound, environmentally responsible and capable of delivering dependable clean power over the long term.</p>
+    </div>
+  </div>
+</section>
+
+<section id="vision" style="background:#f8fbf9">
+  <div class="container">
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🌱</div>
+        <h3>Our Vision</h3>
+        <p>To build a cleaner, greener and more sustainable world by accelerating the transition to renewable energy and creating a better tomorrow for generations to come.</p>
+      </div>
+      <div class="card">
+        <div class="icon">☀️</div>
+        <h3>Our Mission</h3>
+        <p>To promote and develop reliable, responsible and sustainable renewable energy solutions that harness the power of nature, reduce dependence on conventional energy sources and contribute to a cleaner planet.</p>
+      </div>
+      <div class="card">
+        <div class="icon">♻️</div>
+        <h3>Our Approach</h3>
+        <p>Responsible development, reliability, sustainability and long-term value creation are at the heart of how we approach renewable energy projects.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="promise" class="promise">
+  <div class="container">
+    <div class="promise-box">
+      <span class="eyebrow">Our Promise</span>
+      <p>At Everion Energies, we believe that every unit of clean energy generated today is a step towards a better tomorrow.</p>
+      <p>We are committed to growing responsibly, embracing innovation and contributing to a sustainable energy future — from Tamil Nadu to the world.</p>
+      <p class="quote">Everion Energies — Clean Energy. Sustainable Future. Better Tomorrow.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container contact-grid">
+    <div>
+      <span class="eyebrow" style="color:#9de6b8">Get in Touch</span>
+      <h2>Contact Us</h2>
+      <p>For enquiries and discussions about renewable energy solutions, please get in touch with Everion Energies.</p>
+    </div>
+    <div class="contact-card">
+      <div class="contact-item">
+        <strong>Address</strong>
+        No. 3, Gingee Road, Ramakrishna Rice Mill Opposite,<br>
+        Perani & Post, Tindivanam Taluk,<br>
+        Villupuram Dt – 605651, Tamil Nadu
+      </div>
+      <div class="contact-item">
+        <strong>Phone</strong>
+        <a href="tel:+919606958730">+91 96069 58730</a>
+      </div>
+      <div class="contact-item">
+        <strong>Email</strong>
+        <a href="mailto:info@everionenergies.com">info@everionenergies.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    © 2026 <strong>Everion Energies Private Limited</strong>. All rights reserved.
+  </div>
+</footer>
+</body>
+</html>
